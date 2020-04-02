@@ -1,0 +1,41 @@
+body {font-family: 'Ubuntu', sans-serif;
+background-image: url("bg.jpg");
+
+
+}
+
+
+.login-page{
+  width: 360px;
+  padding: 10% 0 0;
+  margin: auto;
+
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+
+}
+
+.form input{
+  outline: 1;
+  background-color: #EDF0F0;
+  width: 100%;g
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+
+}
+
+.form button:hover, .form button:active{
+  background: #BAF5F5
+
+}
