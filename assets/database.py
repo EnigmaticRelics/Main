@@ -4,8 +4,8 @@ import sqlite3
 
 sqlite_file = 'userdb.sqlite'
 table_name1 = 'users'
-new_field = 'username'
-field_type = 'TEXT'
+new_field = 'primary_key'
+field_type = 'INTEGER'
 
 conn = sqlite3.connect(sqlite_file)
 c = conn.cursor()
