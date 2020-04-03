@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="assets\CSS\style.css">
+  </head>
+</head>
+  <body>
+
+<div class="login-page">
+  <form class="form" name="newuser" action="C:\Users\bryce\Desktop\Projects\Login Project\assets\Python\db\user.db" method="post">
+<!-- Username -->
+  <div>
+    <label for="username">Username</label>
+    <input type="text" placeholder="Username" id="username" required></input>
+  </div>
+<!-- email address -->
+<div>
+    <label for="email">Email</label>
+    <input type="email" placeholder="Email Address" id="email" required></input>
+</div>
+<!-- Age -->
+<div>
+  <label for="age">Age</label>
+  <input type="number" placeholder="Age" min="18" max="150" step="1" id="age" required></input>
+</div>
+
+<div>
+    <!-- password -->
+<label for="password">Password</label>
+    <input type="password" placeholder="Password" id="password" required> </input>
+</div>
+    <button type="reset">Clear</button>
+    <button type="submit">Create</button>
+
+    <p> Already User? <a href="index.html">Login<a></p>
+  </form>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+  </body>
+  <script src="assets\JS\java.js"></script>
+</html>
